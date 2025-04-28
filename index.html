@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Halaman Sonic</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <center>
+        <h1>Biodata Sonic</h1>
+        <ul style="list-style-type: none;">
+            
+            <!-- Video Sonic dari YouTube -->
+            <li>
+                <h2 id="video">Sonic Video</h2>
+                <hr>
+                <iframe width="900" height="315" src="https://www.youtube.com/embed/GqzOA9QIg7A?autoplay=1&mute=1&loop=1&playlist=GqzOA9QIg7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </li>            
+
+            <!-- Audio Sonic -->
+            <li>
+                <h2 id="audio">Audio Sonic</h2>
+                <hr>
+                <audio controls>
+                    <source src="ytmp3free.cc_spongebob-12th-street-rag-ukulele-meme-music-sound-effect-for-editing-youtubemp3free.org.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+
+            <!-- Gambar Sonic -->
+            <li id="gambar">
+                <h2>Gambar Responsive</h2>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="https://i1.wp.com/decider.com/wp-content/uploads/2020/03/sonic-the-hedgehog.jpg?quality=90&strip=all&ssl=1">
+                    <source media="(max-width: 1200px)" srcset="https://i1.wp.com/decider.com/wp-content/uploads/2020/03/sonic-the-hedgehog.jpg?quality=90&strip=all&ssl=1">
+                    <img src="https://i1.wp.com/decider.com/wp-content/uploads/2020/03/sonic-the-hedgehog.jpg?quality=90&strip=all&ssl=1" alt="Gambar Sonic" style="max-width: 100%; height: auto;">
+                </picture>
+            </li>
+        </ul>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
